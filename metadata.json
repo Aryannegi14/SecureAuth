@@ -1,0 +1,5 @@
+
+{
+  "name": "SecureAuth Pro",
+  "description": "A comprehensive production-ready authentication system featuring JWT lifecycle management, role-based access control, password recovery flows, and security-hardened frontend/backend logic."
+}
