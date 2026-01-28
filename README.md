@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Auth Secure – Authentication & Authorization API
 
-# Run and deploy your AI Studio app
+Auth Secure is a backend authentication and authorization service built using **Node.js and Express**, focused on implementing **secure, production-ready auth flows** commonly used in real-world applications.
 
-This contains everything you need to run your app locally.
+The project demonstrates best practices for **user authentication, JWT-based authorization, role-based access control, and backend security**.
 
-View your app in AI Studio: https://ai.studio/apps/temp/5
+---
 
-## Run Locally
+## Key Features
 
-**Prerequisites:**  Node.js
+- User registration and login
+- Secure password hashing using bcrypt
+- JWT-based authentication
+- Role-Based Access Control (RBAC)
+- Protected API routes using middleware
+- Centralized error handling
+- Input validation
+- Clean and scalable backend architecture
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Technology Stack
+
+- **Runtime:** Node.js  
+- **Framework:** Express.js  
+- **Database:** PostgreSQL / MongoDB  
+- **Authentication:** JSON Web Tokens (JWT)  
+- **Security:** bcrypt  
+- **API Style:** REST  
+- **Testing:** Postman  
+
+---
+
+## Project Structure
+
