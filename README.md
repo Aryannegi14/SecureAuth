@@ -27,9 +27,19 @@ The project demonstrates best practices for **user authentication, JWT-based aut
 - **Authentication:** JSON Web Tokens (JWT)  
 - **Security:** bcrypt  
 - **API Style:** REST  
-- **Testing:** Postman  
-
+- **Testing:** Postman
+- 
 ---
 
-## Project Structure
+## Authentication & Authorization Flow
+
+1. User registers with email and password  
+2. Password is hashed using bcrypt before being stored  
+3. User logs in with valid credentials  
+4. Server issues a signed JWT token  
+5. Client sends token in the `Authorization` header  
+6. Middleware verifies token for protected routes  
+7. Role-based middleware restricts access to sensitive endpoints  
+
+
 
